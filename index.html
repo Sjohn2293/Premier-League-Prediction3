@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premier League Prediction Dashboard</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>⚽ Premier League Prediction Dashboard</h1>
+            <p>Upload CSV files for AI-powered match predictions and analytics</p>
+        </div>
+        
+        <!-- Tab Navigation -->
+        <div class="tab-navigation">
+            <button class="tab-button active" onclick="showTab('upload')">📁 Upload Data</button>
+            <button class="tab-button" onclick="showTab('dashboard')">📊 Match Dashboard</button>
+            <button class="tab-button" onclick="showTab('predictions')">🔮 Match Predictions</button>
+            <button class="tab-button" onclick="showTab('season')">🏆 Season Winner</button>
+            <button class="tab-button" onclick="showTab('analytics')">📈 Analytics</button>
+        </div>
+        
+        <!-- Messages -->
+        <div class="message success-message" id="successMessage"></div>
+        <div class="message error-message" id="errorMessage"></div>
+        
+        <!-- Upload Tab -->
+        <div class="tab-content active" id="upload-tab">
+            <!-- Content from your original upload section -->
+        </div>
+        
+        <!-- Dashboard Tab -->
+        <div class="tab-content" id="dashboard-tab">
+            <!-- Content from your original dashboard section -->
+        </div>
+        
+        <!-- Predictions Tab -->
+        <div class="tab-content" id="predictions-tab">
+            <!-- Content from your original predictions section -->
+        </div>
+        
+        <!-- Season Tab -->
+        <div class="tab-content" id="season-tab">
+            <!-- Content from your original season section -->
+        </div>
+        
+        <!-- Analytics Tab -->
+        <div class="tab-content" id="analytics-tab">
+            <!-- Content from your original analytics section -->
+        </div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
